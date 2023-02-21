@@ -8,7 +8,7 @@ on:
         default: dist
         type: string
     outputs:
-      results:
+      result:
         description: The result of the deployment operation
         value:  ${{jobs.deploy.outputs.outcome }}
     #secrets:
